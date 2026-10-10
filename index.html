@@ -2,531 +2,333 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
 
-  <meta
-    name="description"
-    content="The creative portfolio of Brilu Hlongwane, a designer working across graphic design, communication design, campaigns, and sports and entertainment."
-  >
+    <title>Brilu | Creative Designer</title>
+    <meta name="description" content="The creative portfolio of Brilu, a graphic and communication designer based in Pretoria, South Africa.">
 
-  <meta name="theme-color" content="#f3f4ef">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
 
-  <title>Brilu Hlongwane — Creative Designer</title>
-
-  <!-- Google Fonts -->
-  <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-
-  <link
-    href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap"
-    rel="stylesheet"
-  >
-
-  <!-- Main stylesheet -->
-  <link rel="stylesheet" href="style.css">
-
-  <!-- JavaScript -->
-  <script src="script.js" defer></script>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
 
 <body>
-
-  <!-- Navigation -->
-  <header class="site-header">
-    <nav class="navigation container" aria-label="Main navigation">
-
-      <a class="brand" href="#home" aria-label="Brilu home">
-        <span class="brand-mark">B.</span>
-        <span>brilu<span class="brand-dot">.</span></span>
-      </a>
-
-      <div class="nav-links">
-        <a href="#work">Selected work</a>
-        <a href="#about">About</a>
-        <a href="#contact">Contact</a>
-      </div>
-
-      <a class="nav-cta" href="#contact">
-        Let's talk <span>↗</span>
-      </a>
-
-    </nav>
-  </header>
-
-
-  <main>
-
-    <!-- Hero section -->
-    <section class="hero container" id="home">
-
-      <div class="hero-copy">
-
-        <div class="availability">
-          <span class="status-dot"></span>
-          CREATIVE DESIGNER
-        </div>
-
-        <h1>
-          Ideas made<br>
-          <span class="accent-text">impossible</span><br>
-          to ignore<span class="heading-period">.</span>
-        </h1>
-
-        <p class="hero-description">
-          I'm Brilu Hlongwane — a creative designer exploring the
-          intersection of visual storytelling, communication design,
-          brands, sport and entertainment.
-        </p>
-
-        <div class="hero-actions">
-          <a class="button button-dark" href="#work">
-            Explore my work <span>↘</span>
-          </a>
-
-          <a
-            class="text-link"
-            href="https://snazzy-blancmange-f53ca7.netlify.app/"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Previous portfolio ↗
-          </a>
-        </div>
-
-        <div class="hero-note">
-          <span class="note-line"></span>
-          <span>Based in Pretoria, South Africa</span>
-        </div>
-
-      </div>
-
-
-      <!-- Profile card -->
-      <aside class="profile-card glass-card">
-
-        <div class="profile-top">
-          <span class="eyebrow">A LITTLE ABOUT ME</span>
-          <span class="card-menu">✳</span>
-        </div>
-
-        <div class="profile-image-wrap">
-          <img
-            class="profile-image"
-            src="assets/profile.jpg"
-            alt="Portrait of Brilu Hlongwane"
-            onerror="this.style.display='none'; this.nextElementSibling.style.display='grid';"
-          >
-
-          <div class="profile-placeholder">
-            <span>B.</span>
-            <small>YOUR PHOTO HERE</small>
-          </div>
-
-          <span class="profile-badge">Creative mind ↗</span>
-        </div>
-
-        <div class="profile-details">
-          <div>
-            <h2>Brilu Hlongwane</h2>
-            <p>Creative Designer</p>
-          </div>
-
-          <span class="profile-symbol">✳</span>
-        </div>
-
-        <div class="profile-tags">
-          <span>Graphic design</span>
-          <span>Campaigns</span>
-          <span>Visual storytelling</span>
-        </div>
-
-        <div class="profile-footer">
-          <span>DESIGNING WITH INTENTION</span>
-          <span>SA · 2026</span>
-        </div>
-
-      </aside>
-
-    </section>
-
-
-    <!-- Quick introduction -->
-    <section class="intro-strip container">
-
-      <div class="intro-item">
-        <span class="intro-number">01</span>
-        <div>
-          <h3>Visual thinking</h3>
-          <p>Turning ideas into visual stories.</p>
-        </div>
-      </div>
-
-      <div class="intro-item">
-        <span class="intro-number">02</span>
-        <div>
-          <h3>Creative problem-solving</h3>
-          <p>Making communication feel effortless.</p>
-        </div>
-      </div>
-
-      <div class="intro-item">
-        <span class="intro-number">03</span>
-        <div>
-          <h3>Culture &amp; sport</h3>
-          <p>Creating for moments that matter.</p>
-        </div>
-      </div>
-
-    </section>
-
-
-    <!-- Project gallery -->
-    <section class="work-section container" id="work">
-
-      <div class="section-heading">
-
-        <div>
-          <span class="eyebrow">THE CREATIVE ARCHIVE</span>
-          <h2>Selected <span class="accent-text">work.</span></h2>
-          <p class="section-description">
-            A collection of projects, campaigns and visual ideas
-            I've contributed to.
-          </p>
-        </div>
-
-        <span class="work-count">11 PROJECTS <span>↘</span></span>
-
-      </div>
-
-      <!-- JavaScript inserts the 11 project cards here -->
-      <div
-        class="project-grid"
-        id="projectGrid"
-        aria-label="Selected design projects"
-      ></div>
-
-      <div class="gallery-note">
-        <span class="note-star">✳</span>
-        <p>
-          Every project is an opportunity to make something
-          meaningful, memorable and visually distinct.
-        </p>
-      </div>
-
-    </section>
-
-
-    <!-- Octagon social media -->
-    <section class="social-section container">
-
-      <div class="social-heading">
-        <div>
-          <span class="eyebrow">SPORTS &amp; ENTERTAINMENT</span>
-          <h2>Built around <span class="accent-text">culture.</span></h2>
-        </div>
-
-        <p>
-          Exploring how design helps sports properties connect
-          with fans, communities and culture.
-        </p>
-      </div>
-
-      <div class="social-grid">
-
-        <article class="social-card rugby-card">
-
-          <div class="social-card-top">
-            <span class="social-label">01 / SPORT</span>
-            <span class="social-icon">↗</span>
-          </div>
-
-          <div class="social-art rugby-art">
-            <span class="art-outline">R</span>
-            <span class="art-title">OCTAGON<br>RUGBY</span>
-            <span class="art-caption">BUILT FOR THE GAME.</span>
-          </div>
-
-          <div class="social-card-bottom">
-            <div>
-              <h3>Octagon Rugby</h3>
-              <p>Social media visual refresh</p>
-            </div>
-
-            <a
-              class="round-link"
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Visit Octagon Rugby Instagram"
-            >↗</a>
-          </div>
-
-        </article>
-
-
-        <article class="social-card cricket-card">
-
-          <div class="social-card-top">
-            <span class="social-label">02 / SPORT</span>
-            <span class="social-icon">↗</span>
-          </div>
-
-          <div class="social-art cricket-art">
-            <span class="art-outline">C</span>
-            <span class="art-title">OCTAGON<br>CRICKET</span>
-            <span class="art-caption">EVERY MOMENT COUNTS.</span>
-          </div>
-
-          <div class="social-card-bottom">
-            <div>
-              <h3>Octagon Cricket</h3>
-              <p>Social media visual refresh</p>
-            </div>
-
-            <a
-              class="round-link"
-              href="https://www.instagram.com/"
-              target="_blank"
-              rel="noopener noreferrer"
-              aria-label="Visit Octagon Cricket Instagram"
-            >↗</a>
-          </div>
-
-        </article>
-
-      </div>
-
-      <p class="social-disclaimer">
-        Replace the Instagram links with the official Octagon Rugby
-        and Cricket account URLs.
-      </p>
-
-    </section>
-
-
-    <!-- About section -->
-    <section class="about-section container" id="about">
-
-      <div class="about-left">
-
-        <span class="eyebrow">THE PERSON BEHIND THE PIXELS</span>
-
-        <h2>
-          Design is more than<br>
-          how it <span class="accent-text">looks.</span>
-        </h2>
-
-        <div class="about-decoration">✳</div>
-
-      </div>
-
-      <div class="about-right">
-
-        <p class="about-lead">
-          It's how an idea feels, how a story connects, and how
-          a message stays with someone long after they've seen it.
-        </p>
-
-        <p>
-          I'm a Creative Technology graduate from The Open Window,
-          majoring in Interactive Development, currently developing
-          my practice as a designer in the sports and entertainment
-          industry.
-        </p>
-
-        <p>
-          My interests sit at the intersection of graphic design,
-          communication design, campaign creative and visual
-          storytelling. I'm interested in making complex ideas
-          clearer, creating distinctive visual identities, and
-          helping brands communicate with purpose.
-        </p>
-
-        <a
-          class="text-link"
-          href="https://snazzy-blancmange-f53ca7.netlify.app/"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Explore my previous work ↗
+    <div class="background-orb orb-one"></div>
+    <div class="background-orb orb-two"></div>
+
+    <header class="site-header glass">
+        <a href="#home" class="logo" aria-label="Brilu home">
+            <span class="logo-mark">B.</span>
+            <span>brilu<span class="logo-dot">.</span></span>
         </a>
 
-      </div>
+        <nav class="main-nav" aria-label="Main navigation">
+            <a href="#work">Work</a>
+            <a href="#about">About</a>
+            <a href="#social">Socials</a>
+            <a href="#contact">Contact</a>
+        </nav>
 
-    </section>
+        <a href="#contact" class="header-cta">Let's talk <span>↗</span></a>
 
+        <button class="menu-toggle" id="menuToggle"
+                aria-label="Toggle navigation" aria-expanded="false">
+            ☰
+        </button>
+    </header>
 
-    <!-- Skills -->
-    <section class="skills-section container">
+    <main>
+        <!-- HERO -->
+        <section class="hero section" id="home">
+            <div class="hero-content">
+                <div class="availability">
+                    <span class="status-dot"></span>
+                    CREATIVE DESIGNER · PRETORIA, SA
+                </div>
 
-      <div class="section-heading skills-heading">
-        <div>
-          <span class="eyebrow">MY CREATIVE TOOLKIT</span>
-          <h2>Tools &amp; <span class="accent-text">skills.</span></h2>
+                <p class="eyebrow">DESIGN WITH INTENTION.</p>
+
+                <h1>
+                    Making ideas<br>
+                    <span class="gradient-text">look and feel</span><br>
+                    different.
+                </h1>
+
+                <p class="hero-description">
+                    I'm Brilu, a creative designer and strategist exploring the space between
+                    graphic design, communication and culture. I turn ideas
+                    into thoughtful visuals that connect with people.
+                </p>
+
+                <div class="hero-actions">
+                    <a href="#work" class="button button-primary">
+                        Explore my work <span>↘</span>
+                    </a>
+
+                    <a href="#contact" class="button button-secondary">
+                        Get in touch
+                    </a>
+                </div>
+
+                <div class="hero-note">
+                    <span>✳</span>
+                    Curious by nature. Intentional by design.
+                </div>
+            </div>
+
+            <div class="hero-visual">
+                <div class="profile-card glass">
+                    <div class="profile-card-top">
+                        <span class="mini-label">CREATIVE PRACTICE</span>
+                        <span class="card-index">001 / 026</span>
+                    </div>
+
+                    <div class="creative-art portrait art">
+                        <img
+                            src="assets/profile.JPG"
+                            alt="Portrait of Brilu Hlongwane"
+                            class="hero-portrait"
+                            >
+                            <span class="art-caption">IDEAS INTO IMPACT.</span>
+                    </div>
+
+                    <div class="profile-card-bottom">
+                        <div>
+                            <h2>Brilu Hlongwane</h2>
+                            <p>Graphic & Communication Design</p>
+                        </div>
+                        <span class="arrow-circle">↗</span>
+                    </div>
+                </div>
+
+                <div class="floating-tag tag-top glass">
+                    <span class="tag-icon">✳</span>
+                    <span>Creative thinking</span>
+                </div>
+
+                <div class="floating-tag tag-bottom glass">
+                    <span class="tag-icon">◈</span>
+                    <span>Visual storytelling</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- STATS -->
+        <section class="stats-bar glass section">
+            <div class="stat">
+                <span class="stat-number" id="projectCount">10</span>
+                <span class="stat-label">Selected projects</span>
+            </div>
+
+            <div class="stat-divider"></div>
+
+            <div class="stat">
+                <span class="stat-number">360°</span>
+                <span class="stat-label">Creative curiosity</span>
+            </div>
+
+            <div class="stat-divider"></div>
+
+            <div class="stat">
+                <span class="stat-number">∞</span>
+                <span class="stat-label">Ideas to explore</span>
+            </div>
+        </section>
+
+        <!-- WORK -->
+        <section class="section work-section" id="work">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">A SELECTION OF MY WORK</p>
+                    <h2>Ideas made <span class="gradient-text">visible.</span></h2>
+                </div>
+
+                <p class="section-intro">
+                    A selection of creative projects, visual systems and
+                    campaign work across sport, entertainment and culture.
+                </p>
+            </div>
+
+            <div class="filter-bar" aria-label="Filter projects">
+                <button class="filter-button active" data-filter="all">All work</button>
+                <button class="filter-button" data-filter="campaign">Campaigns</button>
+                <button class="filter-button" data-filter="digital">Digital & social</button>
+                <button class="filter-button" data-filter="design">Graphic design</button>
+                <button class="filter-button" data-filter="pitch">Pitch concepts</button>
+            </div>
+
+            <div class="project-grid" id="projectGrid">
+                <!-- Projects are rendered by script.js -->
+            </div>
+
+            <div class="portfolio-link-wrap">
+                <p>Want to explore more of my work?</p>
+                <a href="https://snazzy-blancmange-f53ca7.netlify.app/"
+                   target="_blank" rel="noopener noreferrer"
+                   class="text-link">
+                    Visit my existing portfolio <span>↗</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- SOCIALS -->
+        <section class="section social-section" id="social">
+            <div class="section-heading">
+                <div>
+                    <p class="eyebrow">DESIGN IN THE WILD</p>
+                    <h2>Follow the <span class="gradient-text">work.</span></h2>
+                </div>
+
+                <p class="section-intro">
+                    Explore the sports and creative worlds I contribute to
+                    through Octagon's social channels.
+                </p>
+            </div>
+
+            <div class="social-grid">
+                <a class="social-card glass"
+                   href="https://www.instagram.com/octagonrugby/?hl=en"
+                   target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon">↗</div>
+                    <div>
+                        <span class="mini-label">INSTAGRAM</span>
+                        <h3>Octagon Rugby</h3>
+                        <p>Sport, stories and rugby culture.</p>
+                    </div>
+                    <span class="social-arrow">↗</span>
+                </a>
+
+                <a class="social-card glass"
+                   href="https://www.instagram.com/octagon.cricket/?hl=en"
+                   target="_blank" rel="noopener noreferrer">
+                    <div class="social-icon">↗</div>
+                    <div>
+                        <span class="mini-label">INSTAGRAM</span>
+                        <h3>Octagon Cricket</h3>
+                        <p>Creative work in the cricket space.</p>
+                    </div>
+                    <span class="social-arrow">↗</span>
+                </a>
+            </div>
+
+            <p class="social-disclaimer">
+                If either account link has changed, replace it with the
+                correct official profile URL before publishing.
+            </p>
+        </section>
+
+        <!-- ABOUT -->
+        <section class="section about-section" id="about">
+            <div class="about-visual glass">
+                <div class="about-art">
+                    <span class="about-symbol">✳</span>
+                    <span class="about-word">MAKE<br>IT<br>MATTER.</span>
+                    <span class="about-small">THOUGHTFUL BY DESIGN</span>
+                </div>
+            </div>
+
+            <div class="about-content">
+                <p class="eyebrow">A LITTLE ABOUT ME</p>
+                <h2>Design is more than how it <span class="gradient-text">looks.</span></h2>
+
+                <p>
+                    I'm a Pretoria-based creative designer with a background
+                    in Creative Technology and Interactive Development.
+                    My interests have grown towards graphic design,
+                    communication design and visual storytelling.
+                </p>
+
+                <p>
+                    I enjoy taking a brief, finding the idea at its centre
+                    and translating it into visuals that feel clear,
+                    considered and memorable. I'm especially interested
+                    in the worlds of sport, entertainment, brands and culture.
+                </p>
+
+                <div class="skills-block">
+                    <h3>TOOLS & SKILLS</h3>
+                    <div class="skill-tags">
+                        <span>Figma</span>
+                        <span>Adobe Illustrator</span>
+                        <span>Adobe Photoshop</span>
+                        <span>Adobe InDesign</span>
+                        <span>Visual storytelling</span>
+                        <span>Campaign design</span>
+                        <span>Digital design</span>
+                        <span>Creative concepts</span>
+                    </div>
+                </div>
+
+                <a href="#contact" class="text-link">
+                    Let's create something <span>↗</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section class="section contact-section" id="contact">
+            <div class="contact-card glass">
+                <p class="eyebrow">HAVE A PROJECT IN MIND?</p>
+                <h2>Let's make something <span class="gradient-text">meaningful.</span></h2>
+
+                <p>
+                    Have a project, collaboration or opportunity in mind?
+                    I'd love to hear from you.
+                </p>
+
+                <div class="contact-actions">
+                    <!-- Replace this with your preferred public email address -->
+                    <a href="mailto:YOUR_EMAIL@example.com"
+                       class="button button-primary">
+                        Send me an email <span>↗</span>
+                    </a>
+
+                    <button class="button button-secondary" id="copyEmail"
+                            data-email="YOUR_EMAIL@example.com">
+                        Copy email
+                    </button>
+                </div>
+
+                <p class="copy-feedback" id="copyFeedback" aria-live="polite"></p>
+            </div>
+        </section>
+    </main>
+
+    <footer class="site-footer">
+        <a href="#home" class="logo">
+            <span class="logo-mark">B.</span>
+            <span>brilu<span class="logo-dot">.</span></span>
+        </a>
+
+        <p>Designed with intention. © <span id="currentYear"></span> Brilu Hlongwane.</p>
+
+        <a href="#home" class="back-to-top">Back to top ↑</a>
+    </footer>
+
+    <!-- PROJECT LIGHTBOX -->
+    <div class="lightbox" id="lightbox" aria-hidden="true">
+        <div class="lightbox-panel">
+            <button class="lightbox-close" id="lightboxClose"
+                    aria-label="Close project details">×</button>
+
+            <div class="lightbox-image-wrap">
+                <img src="" alt="" id="lightboxImage">
+                <div class="lightbox-placeholder" id="lightboxPlaceholder">
+                    <span>PROJECT PREVIEW</span>
+                </div>
+            </div>
+
+            <div class="lightbox-content">
+                <p class="eyebrow" id="lightboxCategory"></p>
+                <h2 id="lightboxTitle"></h2>
+                <p id="lightboxDescription"></p>
+                <p class="lightbox-note" id="lightboxNote"></p>
+            </div>
         </div>
-      </div>
-
-      <div class="skills-grid">
-
-        <article class="skill-card glass-card">
-          <span class="skill-index">01</span>
-          <span class="skill-icon">✳</span>
-          <h3>Visual design</h3>
-          <p>
-            Layout, typography, visual hierarchy, composition
-            and design systems.
-          </p>
-        </article>
-
-        <article class="skill-card glass-card">
-          <span class="skill-index">02</span>
-          <span class="skill-icon">◈</span>
-          <h3>Campaign creative</h3>
-          <p>
-            Supporting brand campaigns, event creative and
-            visual communication.
-          </p>
-        </article>
-
-        <article class="skill-card glass-card">
-          <span class="skill-index">03</span>
-          <span class="skill-icon">⌘</span>
-          <h3>Figma</h3>
-          <p>
-            Primary design tool for layouts, visual concepts
-            and digital design work.
-          </p>
-        </article>
-
-        <article class="skill-card glass-card">
-          <span class="skill-index">04</span>
-          <span class="skill-icon">✎</span>
-          <h3>Adobe Creative Cloud</h3>
-          <p>
-            Working knowledge of Illustrator, Photoshop
-            and InDesign.
-          </p>
-        </article>
-
-      </div>
-
-    </section>
-
-
-    <!-- Contact section -->
-    <section class="contact-section container" id="contact">
-
-      <div class="contact-card">
-
-        <div class="contact-copy">
-          <span class="eyebrow">HAVE A PROJECT IN MIND?</span>
-
-          <h2>
-            Let's make<br>
-            something <span>meaningful.</span>
-          </h2>
-
-          <p>
-            Interested in creative collaborations, design
-            opportunities or simply having a conversation?
-            I'd love to hear from you.
-          </p>
-
-          <div class="contact-actions">
-
-            <a
-              class="button button-dark"
-              href="mailto:zech01hlongwane@gmail.com"
-            >
-              Email me <span>↗</span>
-            </a>
-
-            <button
-              class="button button-light"
-              id="copyEmail"
-              type="button"
-            >
-              Copy email
-            </button>
-
-          </div>
-
-          <p
-            class="copy-status"
-            id="copyStatus"
-            aria-live="polite"
-          ></p>
-        </div>
-
-        <div class="contact-decoration">
-          <span class="contact-orbit orbit-one"></span>
-          <span class="contact-orbit orbit-two"></span>
-          <span class="contact-orbit orbit-three"></span>
-          <span class="contact-star">✳</span>
-          <span class="contact-decoration-label">LET'S CREATE</span>
-        </div>
-
-      </div>
-
-    </section>
-
-  </main>
-
-
-  <!-- Footer -->
-  <footer class="site-footer container">
-
-    <a class="brand footer-brand" href="#home">
-      <span class="brand-mark">B.</span>
-      <span>brilu<span class="brand-dot">.</span></span>
-    </a>
-
-    <p>Designed with intention. © 2026 Brilu Hlongwane.</p>
-
-    <a class="back-to-top" href="#home">
-      Back to top ↑
-    </a>
-
-  </footer>
-
-
-  <!-- Project image preview -->
-  <dialog
-    class="lightbox"
-    id="lightbox"
-    aria-labelledby="lightboxTitle"
-  >
-
-    <div class="lightbox-content">
-
-      <div class="lightbox-header">
-        <div>
-          <span class="eyebrow">PROJECT PREVIEW</span>
-          <h2 id="lightboxTitle">Project title</h2>
-          <p id="lightboxCategory">Project category</p>
-        </div>
-
-        <button
-          class="lightbox-close"
-          id="closeLightbox"
-          type="button"
-          aria-label="Close project preview"
-        >×</button>
-      </div>
-
-      <div class="lightbox-image-wrap">
-        <img
-          id="lightboxImage"
-          src=""
-          alt=""
-        >
-      </div>
-
     </div>
-
-  </dialog>
-
-
 </body>
 </html>
