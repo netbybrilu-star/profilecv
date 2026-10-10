@@ -25,7 +25,10 @@ const projects = [
         categoryLabel: "Event · Accreditation",
         description:
             "Accreditation and route-map design supporting the 702 Walk the Talk event experience.",
-        image: "assets/projects/project-02.jpg",
+        image: [
+            "assets/projects/project-02.jpg",
+            "assets/projects/project-02-2.jpg"
+        ],
         alt: "702 Walk the Talk event design",
         note: "Event collateral and wayfinding-related design."
     },
@@ -73,7 +76,9 @@ const projects = [
     image: "assets/projects/project-06-1.jpg",
     images: [
         "assets/projects/project-06-1.jpg",
-        "assets/projects/project-06-2.jpg"
+        "assets/projects/project-06-2.jpg",
+        "assets/projects/project-06-3.jpg",
+        "assets/projects/project-06-4.jpg"
     ],
     alt: "NBA Africa pitch apparel design concept",
     note: "Pitch concept only. The pitch was not won."
